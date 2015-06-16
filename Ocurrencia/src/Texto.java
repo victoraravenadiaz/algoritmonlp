@@ -26,7 +26,7 @@ public class Texto {
 	}
 	
 	//método para obtener la ocurrencia del texto
-	public String[] ocurrencia(){
+	public String ocurrencia(){
 		
 		String cadena = this.getTexto(); //iniciar con cadena de texto introducida
 		cadena = cadena.toLowerCase(); //convierte mayúsculas a minúsculas, sobre todo si hay dos palabras iguales, pero una de ellas con mayúsculas
@@ -134,15 +134,13 @@ public class Texto {
 			}
 		}
 		
-		//se declara un arreglo de Strings para unir cada palabra con su contador
-		String[] ocurrencias = new String[nuevoPalabras.length];
+		String ocurrencia = "";
 		
 		for(int i = 0; i < nuevoPalabras.length; i++){
-			//a cada elemento del arreglo, se le asigna cada elemento de ambos arreglos arreglos ya sin elementos anulados ni que equivalgan a 0
-			ocurrencias[i] = nuevoPalabras[i] + ": " + nuevoContadores[i];
+			ocurrencia += nuevoPalabras[i] + ": " + nuevoContadores[i] + "\n";
 		}
 		
-		return ocurrencias;
+		return ocurrencia;
 		
 	}
 }
