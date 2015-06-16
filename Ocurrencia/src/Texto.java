@@ -143,7 +143,7 @@ public class Texto {
 			}
 		}
 		
-		String ocurrencia = "";
+		String ocurrencia = "Texto ingresado: " + this.getTexto() + "\n";
 		
 		for(int i = 0; i < nuevoPalabras.length; i++){
 			ocurrencia += nuevoPalabras[i] + ": " + nuevoContadores[i] + "\n";
