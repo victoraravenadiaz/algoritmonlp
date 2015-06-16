@@ -32,11 +32,20 @@ public class Texto {
 		cadena = cadena.toLowerCase(); //convierte mayúsculas a minúsculas, sobre todo si hay dos palabras iguales, pero una de ellas con mayúsculas
 		
 		
-		//recorremos en busca de puntos y comas
+		//recorremos en busca de puntos, comas y signos
 		for (int i = 0; i < cadena.length(); i++) {
-            if ((cadena.charAt(i) == ',') || (cadena.charAt(i) == '.')) { // Si hay un punto o una coma
+            if ((cadena.charAt(i) == ',') 
+            		|| (cadena.charAt(i) == '.')
+            		|| (cadena.charAt(i) == '?')
+            		|| (cadena.charAt(i) == '¿')
+            		|| (cadena.charAt(i) == '!')
+            		|| (cadena.charAt(i) == '¡')) { // Si hay un punto o una coma
                 cadena = cadena.replace(".", ""); //elimina los puntos encontrados
                 cadena = cadena.replace(",", ""); //elimina comas encontradas
+                cadena = cadena.replace("!", ""); //elimina signos ! encontrados
+                cadena = cadena.replace("¡", ""); //elimina signos ¡ encontrados
+                cadena = cadena.replace("¿", ""); //elimina signos ¿ encontrados
+                cadena = cadena.replace("?", ""); //elimina signos ? encontrados
             }
         }
         
