@@ -18,7 +18,7 @@ public class Texto {
 		this.texto = texto;
 	}
 	
-	public String[] separar(){
+	public String[] ocurrencia(){
 		
 		String cadena = this.getTexto();
 		int cp = 0; // Cantidad de palabras
@@ -31,9 +31,9 @@ public class Texto {
         }
          
         // Por ej. "Hola a  todos" tiene 2 espacios y 2 + 1 palabras
-        String[] partes = new String[cp + 1];
-        for (int i = 0; i < partes.length; i++) {
-            partes[i] = ""; // Se inicializa en "" en lugar de null (defecto)
+        String[] palabras = new String[cp + 1];
+        for (int i = 0; i < palabras.length; i++) {
+            palabras[i] = ""; // Se inicializa en "" en lugar de null (defecto)
         }
          
         int ind = 0; // Creamos un índice para las palabras
@@ -42,14 +42,9 @@ public class Texto {
                 ind++; // Pasamos a la siguiente palabra
                 continue; // Próximo i
             }
-            partes[ind] += cadena.charAt(i); // Sino, agregamos el carácter a la palabra actual
+            palabras[ind] += cadena.charAt(i); // Sino, agregamos el carácter a la palabra actual
         }
-        return partes; // Devolvemos las partes
-	}
-
-	public String[] ocurrencia(){
 		
-		String[] palabras = this.separar();
 		String[] ocurrencias = new String[palabras.length];
 		int[] contadores = new int[palabras.length];
 		int contPalabrasRep = 0;
