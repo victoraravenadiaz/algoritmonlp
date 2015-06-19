@@ -1,0 +1,848 @@
+2015-06-18 01:49:10,843 DEBUG [main] (Configuration.java:219) - Custom properties not found: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 01:49:12,390 ERROR [main] (DbConnection.java:96) - Problems accessing the annotations database. Please check for the database and the user defined in the tml.properties file. Read the README.txt file for installation instructions.
+2015-06-18 01:49:12,390 ERROR [main] (DbConnection.java:99) - User: tml URL:jdbc:mysql://localhost/tml
+2015-06-18 01:49:12,390 ERROR [main] (DbConnection.java:100) - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2015-06-18 01:51:43,687 DEBUG [main] (Configuration.java:219) - Custom properties not found: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 01:51:44,984 ERROR [main] (DbConnection.java:96) - Problems accessing the annotations database. Please check for the database and the user defined in the tml.properties file. Read the README.txt file for installation instructions.
+2015-06-18 01:51:44,984 ERROR [main] (DbConnection.java:99) - User: tml URL:jdbc:mysql://localhost/tml
+2015-06-18 01:51:44,984 ERROR [main] (DbConnection.java:100) - Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2015-06-18 02:03:11,562 DEBUG [main] (Configuration.java:219) - Custom properties not found: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:03:12,062 ERROR [main] (DbConnection.java:96) - Problems accessing the annotations database. Please check for the database and the user defined in the tml.properties file. Read the README.txt file for installation instructions.
+2015-06-18 02:03:12,062 ERROR [main] (DbConnection.java:99) - User: tml URL:jdbc:mysql://localhost/tml
+2015-06-18 02:03:12,062 ERROR [main] (DbConnection.java:100) - Access denied for user 'tml'@'localhost' (using password: YES)
+2015-06-18 02:04:02,500 DEBUG [main] (Configuration.java:219) - Custom properties not found: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:04:02,937 ERROR [main] (DbConnection.java:96) - Problems accessing the annotations database. Please check for the database and the user defined in the tml.properties file. Read the README.txt file for installation instructions.
+2015-06-18 02:04:02,937 ERROR [main] (DbConnection.java:99) - User: tml URL:jdbc:mysql://localhost/tml
+2015-06-18 02:04:02,937 ERROR [main] (DbConnection.java:100) - Access denied for user 'tml'@'localhost' (using password: YES)
+2015-06-18 02:05:41,375 DEBUG [main] (Configuration.java:219) - Custom properties not found: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:05:41,859 ERROR [main] (DbConnection.java:96) - Problems accessing the annotations database. Please check for the database and the user defined in the tml.properties file. Read the README.txt file for installation instructions.
+2015-06-18 02:05:41,859 ERROR [main] (DbConnection.java:99) - User: tml URL:jdbc:mysql://localhost/tml
+2015-06-18 02:05:41,859 ERROR [main] (DbConnection.java:100) - Access denied for user 'tml'@'localhost' (using password: YES)
+2015-06-18 02:07:48,796 DEBUG [main] (Configuration.java:219) - Custom properties not found: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:07:49,250 ERROR [main] (DbConnection.java:96) - Problems accessing the annotations database. Please check for the database and the user defined in the tml.properties file. Read the README.txt file for installation instructions.
+2015-06-18 02:07:49,250 ERROR [main] (DbConnection.java:99) - User: tml URL:jdbc:mysql://localhost/tml
+2015-06-18 02:07:49,250 ERROR [main] (DbConnection.java:100) - Access denied for user 'tml'@'localhost' (using password: YES)
+2015-06-18 02:09:20,750 DEBUG [main] (Configuration.java:219) - Custom properties not found: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:09:21,171 ERROR [main] (DbConnection.java:96) - Problems accessing the annotations database. Please check for the database and the user defined in the tml.properties file. Read the README.txt file for installation instructions.
+2015-06-18 02:09:21,171 ERROR [main] (DbConnection.java:99) - User: tml URL:jdbc:mysql://localhost/tml
+2015-06-18 02:09:21,171 ERROR [main] (DbConnection.java:100) - Access denied for user 'tml'@'localhost' (using password: YES)
+2015-06-18 02:10:11,046 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:10:11,640  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:10:11,640  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 02:10:11,640  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 02:10:11,640  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 02:10:11,640  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 02:10:11,640  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 02:10:11,640  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 02:10:11,640 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 02:10:11,640  INFO [main] (Repository.java:403) - Repository path:	C:/Documents and Settings/Anibal/Escritorio/Prácticas/Práctica II/tml/corpora
+2015-06-18 02:10:11,734  WARN [main] (Repository.java:409) - Repository:		Lucene index corrupt or inexistent, recreating
+2015-06-18 02:10:11,765  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:10:11,765  INFO [main] (DbConnection.java:57) - Cleaning meta data storage, all documents will be lost!
+2015-06-18 02:10:12,078 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 02:10:12,078 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 02:10:12,078 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 02:10:12,140 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 02:10:12,171 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@bae5e9 English
+2015-06-18 02:10:12,203  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:10:12,218  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 02:10:12,218 DEBUG [main] (Repository.java:633) - Adding text files from C:/Documents and Settings/Anibal/Escritorio/Prácticas/Práctica II/tml/corpora/introLSA
+2015-06-18 02:10:12,218 DEBUG [main] (Repository.java:684) - Adding files using encoding UTF-8
+2015-06-18 02:10:12,234 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:10:12,234 DEBUG [main] (Repository.java:709) - Adding document 0:c1.txt
+2015-06-18 02:10:12,250 DEBUG [main] (Repository.java:780) - Adding segments to document c1[c1]
+2015-06-18 02:10:12,250 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:10:12,500 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:10:12,500 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:10:12,500 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:10:12,500 DEBUG [main] (Repository.java:709) - Adding document 1:c2.txt
+2015-06-18 02:10:12,500 DEBUG [main] (Repository.java:780) - Adding segments to document c2[c2]
+2015-06-18 02:10:12,500 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:10:12,515 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:10:12,515 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:10:12,515 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:10:12,515 DEBUG [main] (Repository.java:709) - Adding document 2:c3.txt
+2015-06-18 02:10:12,515 DEBUG [main] (Repository.java:780) - Adding segments to document c3[c3]
+2015-06-18 02:10:12,515 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:10:12,515 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:10:12,515 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:10:12,531 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:10:12,531 DEBUG [main] (Repository.java:709) - Adding document 3:c4.txt
+2015-06-18 02:10:12,531 DEBUG [main] (Repository.java:780) - Adding segments to document c4[c4]
+2015-06-18 02:10:12,531 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:10:12,531 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:10:12,531 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:10:12,546 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:10:12,546 DEBUG [main] (Repository.java:709) - Adding document 4:c5.txt
+2015-06-18 02:10:12,546 DEBUG [main] (Repository.java:780) - Adding segments to document c5[c5]
+2015-06-18 02:10:12,546 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:10:12,546 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:10:12,546 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:10:12,562 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:10:12,562 DEBUG [main] (Repository.java:709) - Adding document 5:m1.txt
+2015-06-18 02:10:12,562 DEBUG [main] (Repository.java:780) - Adding segments to document m1[m1]
+2015-06-18 02:10:12,562 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:10:12,562 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:10:12,562 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:10:12,578 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:10:12,578 DEBUG [main] (Repository.java:709) - Adding document 6:m2.txt
+2015-06-18 02:10:12,578 DEBUG [main] (Repository.java:780) - Adding segments to document m2[m2]
+2015-06-18 02:10:12,578 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:10:12,578 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:10:12,578 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:10:12,578 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:10:12,578 DEBUG [main] (Repository.java:709) - Adding document 7:m3.txt
+2015-06-18 02:10:12,578 DEBUG [main] (Repository.java:780) - Adding segments to document m3[m3]
+2015-06-18 02:10:12,578 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:10:12,593 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:10:12,593 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:10:12,593 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:10:12,593 DEBUG [main] (Repository.java:709) - Adding document 8:m4.txt
+2015-06-18 02:10:12,593 DEBUG [main] (Repository.java:780) - Adding segments to document m4[m4]
+2015-06-18 02:10:12,593 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:10:12,609 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:10:12,609 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:10:12,875  INFO [main] (Repository.java:733) - Successfully added 9 documents in 657 ms
+2015-06-18 02:10:18,265 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:10:18,859  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:10:18,859  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 02:10:18,859  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 02:10:18,859  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 02:10:18,859  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 02:10:18,859  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 02:10:18,859  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 02:10:18,859 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 02:10:18,859  INFO [main] (Repository.java:403) - Repository path:	C:/Documents and Settings/Anibal/Escritorio/Prácticas/Práctica II/tml/corpora/introLSA
+2015-06-18 02:10:18,953  WARN [main] (Repository.java:409) - Repository:		Lucene index corrupt or inexistent, recreating
+2015-06-18 02:10:18,984  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:10:18,984  INFO [main] (DbConnection.java:57) - Cleaning meta data storage, all documents will be lost!
+2015-06-18 02:10:19,312 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 02:10:19,312 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 02:10:19,312 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 02:10:19,328 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 02:10:19,343 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@dd421f English
+2015-06-18 02:10:19,375  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:10:19,375  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 02:10:19,390 DEBUG [main] (Corpus.java:377) - Corpus being loaded. Query:type:document
+2015-06-18 02:10:19,500 DEBUG [main] (Corpus.java:387) - 0 documents found
+2015-06-18 02:10:19,500 ERROR [main] (Corpus.java:390) - No documents found in Corpus
+2015-06-18 02:12:25,828 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:12:26,343  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:12:26,343  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 02:12:26,343  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 02:12:26,343  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 02:12:26,343  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 02:12:26,343  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 02:12:26,343  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 02:12:26,343 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 02:12:26,343  INFO [main] (Repository.java:403) - Repository path:	C:/Documents and Settings/Anibal/Escritorio/Prácticas/Práctica II/tml/corpora/introLSA
+2015-06-18 02:12:26,437  INFO [main] (Repository.java:407) - Repository:		Lucene initialized
+2015-06-18 02:12:26,437 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 02:12:26,437 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 02:12:26,437 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 02:12:26,453 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 02:12:26,484 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@181882a English
+2015-06-18 02:12:26,515  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:12:26,640  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 02:12:26,656 DEBUG [main] (Corpus.java:377) - Corpus being loaded. Query:C:/Documents and Settings/Anibal/Escritorio/Prácticas/Práctica II/tml/corpora/introLSA
+2015-06-18 02:12:26,812 DEBUG [main] (Corpus.java:387) - 0 documents found
+2015-06-18 02:12:26,812 ERROR [main] (Corpus.java:390) - No documents found in Corpus
+2015-06-18 02:12:43,156 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:12:43,703  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:12:43,718  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 02:12:43,718  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 02:12:43,718  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 02:12:43,718  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 02:12:43,718  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 02:12:43,718  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 02:12:43,718 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 02:12:43,718  INFO [main] (Repository.java:403) - Repository path:	C:/Documents and Settings/Anibal/Escritorio/Prácticas/Práctica II/tml/corpora
+2015-06-18 02:12:43,953  INFO [main] (Repository.java:407) - Repository:		Lucene initialized
+2015-06-18 02:12:43,953 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 02:12:43,953 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 02:12:43,953 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 02:12:43,953 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 02:12:43,984 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@17de5ce English
+2015-06-18 02:12:44,015  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:12:44,156  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 02:12:44,156 DEBUG [main] (Repository.java:633) - Adding text files from C:/Documents and Settings/Anibal/Escritorio/Prácticas/Práctica II/tml/corpora/introLSA
+2015-06-18 02:12:44,171 DEBUG [main] (Repository.java:684) - Adding files using encoding UTF-8
+2015-06-18 02:12:44,171 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:12:44,171 DEBUG [main] (Repository.java:709) - Adding document 0:c1.txt
+2015-06-18 02:12:44,171 DEBUG [main] (Repository.java:780) - Adding segments to document c1[c1]
+2015-06-18 02:12:44,171 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:12:44,312 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:12:44,312 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:12:44,328 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:12:44,328 DEBUG [main] (Repository.java:709) - Adding document 1:c2.txt
+2015-06-18 02:12:44,328 DEBUG [main] (Repository.java:780) - Adding segments to document c2[c2]
+2015-06-18 02:12:44,328 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:12:44,328 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:12:44,328 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:12:44,343 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:12:44,343 DEBUG [main] (Repository.java:709) - Adding document 2:c3.txt
+2015-06-18 02:12:44,343 DEBUG [main] (Repository.java:780) - Adding segments to document c3[c3]
+2015-06-18 02:12:44,343 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:12:44,359 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:12:44,359 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:12:44,359 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:12:44,359 DEBUG [main] (Repository.java:709) - Adding document 3:c4.txt
+2015-06-18 02:12:44,359 DEBUG [main] (Repository.java:780) - Adding segments to document c4[c4]
+2015-06-18 02:12:44,359 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:12:44,375 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:12:44,375 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:12:44,390 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:12:44,390 DEBUG [main] (Repository.java:709) - Adding document 4:c5.txt
+2015-06-18 02:12:44,390 DEBUG [main] (Repository.java:780) - Adding segments to document c5[c5]
+2015-06-18 02:12:44,390 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:12:44,390 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:12:44,390 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:12:44,406 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:12:44,406 DEBUG [main] (Repository.java:709) - Adding document 5:m1.txt
+2015-06-18 02:12:44,406 DEBUG [main] (Repository.java:780) - Adding segments to document m1[m1]
+2015-06-18 02:12:44,406 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:12:44,406 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:12:44,406 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:12:44,406 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:12:44,406 DEBUG [main] (Repository.java:709) - Adding document 6:m2.txt
+2015-06-18 02:12:44,406 DEBUG [main] (Repository.java:780) - Adding segments to document m2[m2]
+2015-06-18 02:12:44,406 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:12:44,421 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:12:44,421 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:12:44,421 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:12:44,421 DEBUG [main] (Repository.java:709) - Adding document 7:m3.txt
+2015-06-18 02:12:44,421 DEBUG [main] (Repository.java:780) - Adding segments to document m3[m3]
+2015-06-18 02:12:44,421 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:12:44,437 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:12:44,437 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:12:44,437 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:12:44,437 DEBUG [main] (Repository.java:709) - Adding document 8:m4.txt
+2015-06-18 02:12:44,437 DEBUG [main] (Repository.java:780) - Adding segments to document m4[m4]
+2015-06-18 02:12:44,437 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:12:44,453 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:12:44,453 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:12:44,468  INFO [main] (Repository.java:697) - Don't know how to parse .gen files, ignoring segments.gen
+2015-06-18 02:12:44,468  INFO [main] (Repository.java:697) - Don't know how to parse .segments_1 files, ignoring segments_1
+2015-06-18 02:12:45,250  INFO [main] (Repository.java:733) - Successfully added 9 documents in 1094 ms
+2015-06-18 02:16:51,859 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:16:52,406  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:16:52,406  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 02:16:52,421  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 02:16:52,421  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 02:16:52,421  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 02:16:52,421  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 02:16:52,421  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 02:16:52,421 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 02:16:52,421  INFO [main] (Repository.java:403) - Repository path:	C:/Documents and Settings/Anibal/Escritorio/Prácticas/Práctica II/tml/corpora/introLSA
+2015-06-18 02:16:52,531  INFO [main] (Repository.java:407) - Repository:		Lucene initialized
+2015-06-18 02:16:52,531 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 02:16:52,531 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 02:16:52,531 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 02:16:52,546 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 02:16:52,593 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@112b27c English
+2015-06-18 02:16:52,640  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:16:52,828  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 02:16:52,843 DEBUG [main] (Corpus.java:377) - Corpus being loaded. Query:type:document
+2015-06-18 02:16:52,984 DEBUG [main] (Corpus.java:387) - 0 documents found
+2015-06-18 02:16:52,984 ERROR [main] (Corpus.java:390) - No documents found in Corpus
+2015-06-18 02:39:19,875 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:39:20,640  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:39:20,640  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 02:39:20,656  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 02:39:20,656  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 02:39:20,656  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 02:39:20,656  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 02:39:20,656  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 02:39:20,656 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 02:39:20,656  INFO [main] (Repository.java:403) - Repository path:	C:\BerryDumais
+2015-06-18 02:39:20,734  WARN [main] (Repository.java:409) - Repository:		Lucene index corrupt or inexistent, recreating
+2015-06-18 02:39:20,765  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:39:20,765  INFO [main] (DbConnection.java:57) - Cleaning meta data storage, all documents will be lost!
+2015-06-18 02:39:21,140 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 02:39:21,140 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 02:39:21,140 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 02:39:21,156 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 02:39:21,171 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@5009ea English
+2015-06-18 02:39:21,203  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:39:21,203  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 02:41:42,000 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:41:42,859  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:41:42,875  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 02:41:42,875  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 02:41:42,875  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 02:41:42,875  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 02:41:42,875  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 02:41:42,875  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 02:41:42,875 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 02:41:42,875  INFO [main] (Repository.java:403) - Repository path:	C:\BerryDumais
+2015-06-18 02:41:42,984  INFO [main] (Repository.java:407) - Repository:		Lucene initialized
+2015-06-18 02:41:42,984 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 02:41:42,984 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 02:41:42,984 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 02:41:43,000 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 02:41:43,046 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@16ce64e English
+2015-06-18 02:41:43,078  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:41:43,250  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 02:41:43,250 DEBUG [main] (Repository.java:633) - Adding text files from C:\handbookOfLSA\b1.txt
+2015-06-18 02:42:26,562 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:42:27,234  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:42:27,234  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 02:42:27,234  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 02:42:27,234  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 02:42:27,234  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 02:42:27,234  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 02:42:27,234  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 02:42:27,234 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 02:42:27,234  INFO [main] (Repository.java:403) - Repository path:	C:\BerryDumais
+2015-06-18 02:42:27,375  INFO [main] (Repository.java:407) - Repository:		Lucene initialized
+2015-06-18 02:42:27,375 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 02:42:27,375 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 02:42:27,375 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 02:42:27,390 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 02:42:27,437 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@16ce64e English
+2015-06-18 02:42:27,468  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:42:27,625  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 02:42:27,625 DEBUG [main] (Repository.java:633) - Adding text files from /handbookOfLSA/b1.txt
+2015-06-18 02:44:06,343 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:44:07,140  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:44:07,140  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 02:44:07,140  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 02:44:07,140  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 02:44:07,140  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 02:44:07,140  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 02:44:07,140  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 02:44:07,140 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 02:44:07,140  INFO [main] (Repository.java:403) - Repository path:	C:\BerryDumais
+2015-06-18 02:44:07,265  INFO [main] (Repository.java:407) - Repository:		Lucene initialized
+2015-06-18 02:44:07,265 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 02:44:07,265 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 02:44:07,265 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 02:44:07,281 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 02:44:07,328 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@16ce64e English
+2015-06-18 02:44:07,375  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:44:07,546  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 02:44:07,562 DEBUG [main] (Repository.java:633) - Adding text files from C:\handbookOfLSA/b1.txt
+2015-06-18 02:44:36,859 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:44:37,625  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:44:37,625  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 02:44:37,625  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 02:44:37,640  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 02:44:37,640  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 02:44:37,640  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 02:44:37,640  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 02:44:37,640 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 02:44:37,640  INFO [main] (Repository.java:403) - Repository path:	C:\BerryDumais
+2015-06-18 02:44:37,765  INFO [main] (Repository.java:407) - Repository:		Lucene initialized
+2015-06-18 02:44:37,765 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 02:44:37,765 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 02:44:37,765 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 02:44:37,781 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 02:44:37,828 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@844c3d English
+2015-06-18 02:44:37,875  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:44:38,062  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 02:44:38,062 DEBUG [main] (Repository.java:633) - Adding text files from C:\handbookOfLSA/b1
+2015-06-18 02:44:52,250 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:44:52,953  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:44:52,953  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 02:44:52,953  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 02:44:52,953  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 02:44:52,953  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 02:44:52,953  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 02:44:52,953  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 02:44:52,953 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 02:44:52,953  INFO [main] (Repository.java:403) - Repository path:	C:\BerryDumais
+2015-06-18 02:44:53,062  INFO [main] (Repository.java:407) - Repository:		Lucene initialized
+2015-06-18 02:44:53,062 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 02:44:53,062 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 02:44:53,062 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 02:44:53,062 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 02:44:53,109 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@16ce64e English
+2015-06-18 02:44:53,156  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:44:53,312  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 02:44:53,312 DEBUG [main] (Repository.java:633) - Adding text files from C:\handbookOfLSA/
+2015-06-18 02:44:53,312 DEBUG [main] (Repository.java:684) - Adding files using encoding UTF-8
+2015-06-18 02:44:53,312 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:44:53,328 DEBUG [main] (Repository.java:709) - Adding document 0:b1.txt
+2015-06-18 02:44:53,343 DEBUG [main] (Repository.java:780) - Adding segments to document b1[b1]
+2015-06-18 02:44:53,343 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:44:53,546 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:44:53,546 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:44:53,562 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:44:53,562 DEBUG [main] (Repository.java:709) - Adding document 1:b2.txt
+2015-06-18 02:44:53,562 DEBUG [main] (Repository.java:780) - Adding segments to document b2[b2]
+2015-06-18 02:44:53,562 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:44:53,562 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:44:53,562 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:44:53,578 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:44:53,578 DEBUG [main] (Repository.java:709) - Adding document 2:b3.txt
+2015-06-18 02:44:53,578 DEBUG [main] (Repository.java:780) - Adding segments to document b3[b3]
+2015-06-18 02:44:53,578 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:44:53,578 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:44:53,578 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:44:53,578 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:44:53,578 DEBUG [main] (Repository.java:709) - Adding document 3:b4.txt
+2015-06-18 02:44:53,593 DEBUG [main] (Repository.java:780) - Adding segments to document b4[b4]
+2015-06-18 02:44:53,593 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:44:53,593 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:44:53,593 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:44:53,593 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:44:53,593 DEBUG [main] (Repository.java:709) - Adding document 4:m1.txt
+2015-06-18 02:44:53,593 DEBUG [main] (Repository.java:780) - Adding segments to document m1[m1]
+2015-06-18 02:44:53,593 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:44:53,609 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:44:53,609 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:44:53,609 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:44:53,609 DEBUG [main] (Repository.java:709) - Adding document 5:m2.txt
+2015-06-18 02:44:53,609 DEBUG [main] (Repository.java:780) - Adding segments to document m2[m2]
+2015-06-18 02:44:53,609 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:44:53,609 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:44:53,625 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:44:53,625 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:44:53,625 DEBUG [main] (Repository.java:709) - Adding document 6:m3.txt
+2015-06-18 02:44:53,625 DEBUG [main] (Repository.java:780) - Adding segments to document m3[m3]
+2015-06-18 02:44:53,625 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:44:53,625 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:44:53,625 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:44:53,640 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:44:53,640 DEBUG [main] (Repository.java:709) - Adding document 7:m4.txt
+2015-06-18 02:44:53,640 DEBUG [main] (Repository.java:780) - Adding segments to document m4[m4]
+2015-06-18 02:44:53,640 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:44:53,640 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:44:53,640 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:44:53,656 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:44:53,656 DEBUG [main] (Repository.java:709) - Adding document 8:m5.txt
+2015-06-18 02:44:53,656 DEBUG [main] (Repository.java:780) - Adding segments to document m5[m5]
+2015-06-18 02:44:53,656 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:44:53,656 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:44:53,656 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:44:53,656 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:44:53,656 DEBUG [main] (Repository.java:709) - Adding document 9:q5.txt
+2015-06-18 02:44:53,656 DEBUG [main] (Repository.java:780) - Adding segments to document q5[q5]
+2015-06-18 02:44:53,656 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:44:53,671 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:44:53,671 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:44:54,109  INFO [main] (Repository.java:733) - Successfully added 10 documents in 797 ms
+2015-06-18 02:45:32,937 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:45:33,718  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:45:33,718  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 02:45:33,718  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 02:45:33,718  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 02:45:33,718  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 02:45:33,718  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 02:45:33,718  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 02:45:33,718 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 02:45:33,718  INFO [main] (Repository.java:403) - Repository path:	C:\BerryDumais
+2015-06-18 02:45:34,000  INFO [main] (Repository.java:407) - Repository:		Lucene initialized
+2015-06-18 02:45:34,000 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 02:45:34,000 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 02:45:34,000 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 02:45:34,015 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 02:45:34,031 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@eea1e7 English
+2015-06-18 02:45:34,078  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:45:34,234  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 02:45:34,250 DEBUG [main] (Corpus.java:377) - Corpus being loaded. Query:type:document
+2015-06-18 02:45:34,421 DEBUG [main] (Corpus.java:387) - 10 documents found
+2015-06-18 02:45:34,437 DEBUG [main] (Dictionary.java:70) - Creating dictionary for corpus type:document
+2015-06-18 02:45:34,546 DEBUG [main] (Dictionary.java:159) - Removal of terms finished, 0 terms removed, 24 terms kept.
+2015-06-18 02:45:34,546 DEBUG [main] (Corpus.java:469) - 10 documents processed, 24 terms kept
+2015-06-18 02:45:34,546 DEBUG [main] (Corpus.java:498) - Terms sorted
+2015-06-18 02:45:34,546 DEBUG [main] (Corpus.java:518) - Frequencies calculated
+2015-06-18 02:45:34,593 DEBUG [main] (TermWeighting.java:237) - Term weighting. Local: LOGTF Global: Entropy
+2015-06-18 02:45:34,593 DEBUG [main] (TermWeighting.java:243) - Updating weights
+2015-06-18 02:45:34,593 DEBUG [main] (Corpus.java:529) - Term weighting applied
+2015-06-18 02:45:34,593 DEBUG [main] (SemanticSpace.java:101) - Applying dimensionality reduction
+2015-06-18 02:45:34,593 DEBUG [main] (SemanticSpace.java:154) - Using Jama SVD
+2015-06-18 02:45:34,609  INFO [main] (SemanticSpace.java:244) - Semantic space calculated in 16 ms. Parameters:DF_0_LOGTF_Entropy_NUM_50_J
+2015-06-18 02:45:34,609  INFO [main] (Corpus.java:537) - Corpus type:document loaded in 359 ms. Parameters:DF_0_LOGTF_Entropy_NUM_50_J
+2015-06-18 02:45:34,609  INFO [main] (AbstractOperation.java:267) - Operation Passages similarity started
+2015-06-18 02:45:34,625  INFO [main] (AbstractOperation.java:105) - Operation Passages similarity finished, 55 results obtained in 16 ms.
+2015-06-18 02:46:48,812 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:46:49,531  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:46:49,531  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 02:46:49,546  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 02:46:49,546  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 02:46:49,546  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 02:46:49,546  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 02:46:49,546  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 02:46:49,546 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 02:46:49,546  INFO [main] (Repository.java:403) - Repository path:	C:\BerryDumais
+2015-06-18 02:46:49,734  INFO [main] (Repository.java:407) - Repository:		Lucene initialized
+2015-06-18 02:46:49,734 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 02:46:49,734 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 02:46:49,734 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 02:46:49,750 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 02:46:49,781 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@c74e66 English
+2015-06-18 02:46:49,812  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:46:50,015  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 02:46:50,015 DEBUG [main] (Repository.java:633) - Adding text files from C:\handbookOfLSA/
+2015-06-18 02:46:50,015 DEBUG [main] (Repository.java:684) - Adding files using encoding UTF-8
+2015-06-18 02:46:50,031 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:46:50,031 DEBUG [main] (Repository.java:709) - Adding document 0:b1.txt
+2015-06-18 02:46:50,031 DEBUG [main] (Repository.java:780) - Adding segments to document b1[b1]
+2015-06-18 02:46:50,031 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:46:50,187 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:46:50,187 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:46:50,187 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:46:50,187 DEBUG [main] (Repository.java:709) - Adding document 1:b2.txt
+2015-06-18 02:46:50,187 DEBUG [main] (Repository.java:780) - Adding segments to document b2[b2]
+2015-06-18 02:46:50,187 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:46:50,203 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:46:50,203 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:46:50,203 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:46:50,203 DEBUG [main] (Repository.java:709) - Adding document 2:b3.txt
+2015-06-18 02:46:50,203 DEBUG [main] (Repository.java:780) - Adding segments to document b3[b3]
+2015-06-18 02:46:50,203 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:46:50,218 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:46:50,218 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:46:50,218 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:46:50,218 DEBUG [main] (Repository.java:709) - Adding document 3:b4.txt
+2015-06-18 02:46:50,218 DEBUG [main] (Repository.java:780) - Adding segments to document b4[b4]
+2015-06-18 02:46:50,218 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:46:50,234 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:46:50,234 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:46:50,234 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:46:50,234 DEBUG [main] (Repository.java:709) - Adding document 4:m1.txt
+2015-06-18 02:46:50,234 DEBUG [main] (Repository.java:780) - Adding segments to document m1[m1]
+2015-06-18 02:46:50,234 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:46:50,234 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:46:50,234 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:46:50,250 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:46:50,250 DEBUG [main] (Repository.java:709) - Adding document 5:m2.txt
+2015-06-18 02:46:50,250 DEBUG [main] (Repository.java:780) - Adding segments to document m2[m2]
+2015-06-18 02:46:50,250 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:46:50,250 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:46:50,250 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:46:50,250 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:46:50,265 DEBUG [main] (Repository.java:709) - Adding document 6:m3.txt
+2015-06-18 02:46:50,265 DEBUG [main] (Repository.java:780) - Adding segments to document m3[m3]
+2015-06-18 02:46:50,265 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:46:50,265 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:46:50,265 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:46:50,265 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:46:50,265 DEBUG [main] (Repository.java:709) - Adding document 7:m4.txt
+2015-06-18 02:46:50,265 DEBUG [main] (Repository.java:780) - Adding segments to document m4[m4]
+2015-06-18 02:46:50,281 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:46:50,281 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:46:50,281 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:46:50,281 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:46:50,281 DEBUG [main] (Repository.java:709) - Adding document 8:m5.txt
+2015-06-18 02:46:50,281 DEBUG [main] (Repository.java:780) - Adding segments to document m5[m5]
+2015-06-18 02:46:50,281 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:46:50,296 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:46:50,296 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:46:50,296 DEBUG [main] (Repository.java:702) - Using importer tml.storage.importers.TextImporter
+2015-06-18 02:46:50,296 DEBUG [main] (Repository.java:709) - Adding document 9:q5.txt
+2015-06-18 02:46:50,296 DEBUG [main] (Repository.java:780) - Adding segments to document q5[q5]
+2015-06-18 02:46:50,296 DEBUG [main] (Repository.java:793) - Parsing text with en
+2015-06-18 02:46:50,312 DEBUG [main] (Repository.java:853) - Added 1 paragraphs and 1 sentences.
+2015-06-18 02:46:50,312 DEBUG [main] (Repository.java:855) - Ignored 0 paragraphs and 0 sentences.
+2015-06-18 02:46:51,312  INFO [main] (Repository.java:733) - Successfully added 10 documents in 1297 ms
+2015-06-18 02:46:51,328 DEBUG [main] (Corpus.java:377) - Corpus being loaded. Query:type:document
+2015-06-18 02:46:51,578 DEBUG [main] (Corpus.java:387) - 10 documents found
+2015-06-18 02:46:51,578 DEBUG [main] (Dictionary.java:70) - Creating dictionary for corpus type:document
+2015-06-18 02:46:51,640 DEBUG [main] (Dictionary.java:159) - Removal of terms finished, 0 terms removed, 24 terms kept.
+2015-06-18 02:46:51,640 DEBUG [main] (Corpus.java:469) - 10 documents processed, 24 terms kept
+2015-06-18 02:46:51,640 DEBUG [main] (Corpus.java:498) - Terms sorted
+2015-06-18 02:46:51,656 DEBUG [main] (Corpus.java:518) - Frequencies calculated
+2015-06-18 02:46:51,656 DEBUG [main] (TermWeighting.java:237) - Term weighting. Local: LOGTF Global: Entropy
+2015-06-18 02:46:51,656 DEBUG [main] (TermWeighting.java:243) - Updating weights
+2015-06-18 02:46:51,671 DEBUG [main] (Corpus.java:529) - Term weighting applied
+2015-06-18 02:46:51,671 DEBUG [main] (SemanticSpace.java:101) - Applying dimensionality reduction
+2015-06-18 02:46:51,671 DEBUG [main] (SemanticSpace.java:154) - Using Jama SVD
+2015-06-18 02:46:51,671  INFO [main] (SemanticSpace.java:244) - Semantic space calculated in 0 ms. Parameters:DF_0_LOGTF_Entropy_NUM_50_J
+2015-06-18 02:46:51,671  INFO [main] (Corpus.java:537) - Corpus type:document loaded in 343 ms. Parameters:DF_0_LOGTF_Entropy_NUM_50_J
+2015-06-18 02:46:51,687  INFO [main] (AbstractOperation.java:267) - Operation Passages similarity started
+2015-06-18 02:46:51,687  INFO [main] (AbstractOperation.java:105) - Operation Passages similarity finished, 55 results obtained in 0 ms.
+2015-06-18 02:48:32,437 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:48:33,140  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:48:33,140  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 02:48:33,156  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 02:48:33,156  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 02:48:33,156  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 02:48:33,156  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 02:48:33,156  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 02:48:33,156 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 02:48:33,156  INFO [main] (Repository.java:403) - Repository path:	C:\BerryDumais
+2015-06-18 02:48:33,343  INFO [main] (Repository.java:407) - Repository:		Lucene initialized
+2015-06-18 02:48:33,343 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 02:48:33,343 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 02:48:33,343 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 02:48:33,343 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 02:48:33,375 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@1c4b579 English
+2015-06-18 02:48:33,421  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:48:33,593  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 02:48:33,609 DEBUG [main] (Corpus.java:377) - Corpus being loaded. Query:type:document
+2015-06-18 02:48:33,734 DEBUG [main] (Corpus.java:387) - 10 documents found
+2015-06-18 02:48:33,734 DEBUG [main] (Dictionary.java:70) - Creating dictionary for corpus type:document
+2015-06-18 02:48:33,796 DEBUG [main] (Dictionary.java:159) - Removal of terms finished, 0 terms removed, 24 terms kept.
+2015-06-18 02:48:33,796 DEBUG [main] (Corpus.java:469) - 10 documents processed, 24 terms kept
+2015-06-18 02:48:33,796 DEBUG [main] (Corpus.java:498) - Terms sorted
+2015-06-18 02:48:33,796 DEBUG [main] (Corpus.java:518) - Frequencies calculated
+2015-06-18 02:48:33,812 DEBUG [main] (TermWeighting.java:237) - Term weighting. Local: LOGTF Global: Entropy
+2015-06-18 02:48:33,812 DEBUG [main] (TermWeighting.java:243) - Updating weights
+2015-06-18 02:48:33,828 DEBUG [main] (Corpus.java:529) - Term weighting applied
+2015-06-18 02:48:33,828 DEBUG [main] (SemanticSpace.java:101) - Applying dimensionality reduction
+2015-06-18 02:48:33,828 DEBUG [main] (SemanticSpace.java:154) - Using Jama SVD
+2015-06-18 02:48:33,828  INFO [main] (SemanticSpace.java:244) - Semantic space calculated in 0 ms. Parameters:DF_0_LOGTF_Entropy_NUM_50_J
+2015-06-18 02:48:33,828  INFO [main] (Corpus.java:537) - Corpus type:document loaded in 219 ms. Parameters:DF_0_LOGTF_Entropy_NUM_50_J
+2015-06-18 02:48:33,843  INFO [main] (AbstractOperation.java:267) - Operation Passages similarity started
+2015-06-18 02:48:33,843  INFO [main] (AbstractOperation.java:105) - Operation Passages similarity finished, 55 results obtained in 0 ms.
+2015-06-18 02:49:05,234 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 02:49:06,046  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:49:06,046  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 02:49:06,046  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 02:49:06,062  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 02:49:06,062  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 02:49:06,062  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 02:49:06,062  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 02:49:06,062 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 02:49:06,062  INFO [main] (Repository.java:403) - Repository path:	C:\BerryDumais
+2015-06-18 02:49:06,250  INFO [main] (Repository.java:407) - Repository:		Lucene initialized
+2015-06-18 02:49:06,250 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 02:49:06,250 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 02:49:06,250 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 02:49:06,250 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 02:49:06,281 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@c042ba English
+2015-06-18 02:49:06,312  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 02:49:06,484  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 02:49:06,500 DEBUG [main] (Corpus.java:377) - Corpus being loaded. Query:type:document
+2015-06-18 02:49:06,656 DEBUG [main] (Corpus.java:387) - 10 documents found
+2015-06-18 02:49:06,656 DEBUG [main] (Dictionary.java:70) - Creating dictionary for corpus type:document
+2015-06-18 02:49:06,765 DEBUG [main] (Dictionary.java:159) - Removal of terms finished, 0 terms removed, 24 terms kept.
+2015-06-18 02:49:06,765 DEBUG [main] (Corpus.java:469) - 10 documents processed, 24 terms kept
+2015-06-18 02:49:06,781 DEBUG [main] (Corpus.java:498) - Terms sorted
+2015-06-18 02:49:06,781 DEBUG [main] (Corpus.java:518) - Frequencies calculated
+2015-06-18 02:49:06,796 DEBUG [main] (TermWeighting.java:237) - Term weighting. Local: LOGTF Global: Entropy
+2015-06-18 02:49:06,796 DEBUG [main] (TermWeighting.java:243) - Updating weights
+2015-06-18 02:49:06,796 DEBUG [main] (Corpus.java:529) - Term weighting applied
+2015-06-18 02:49:06,796 DEBUG [main] (SemanticSpace.java:101) - Applying dimensionality reduction
+2015-06-18 02:49:06,796 DEBUG [main] (SemanticSpace.java:154) - Using Jama SVD
+2015-06-18 02:49:06,812  INFO [main] (SemanticSpace.java:244) - Semantic space calculated in 16 ms. Parameters:DF_0_LOGTF_Entropy_NUM_100_J
+2015-06-18 02:49:06,812  INFO [main] (Corpus.java:537) - Corpus type:document loaded in 312 ms. Parameters:DF_0_LOGTF_Entropy_NUM_100_J
+2015-06-18 02:49:06,828  INFO [main] (AbstractOperation.java:267) - Operation Passages similarity started
+2015-06-18 02:49:06,828  INFO [main] (AbstractOperation.java:105) - Operation Passages similarity finished, 55 results obtained in 0 ms.
+2015-06-18 03:08:41,968 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 03:08:42,578  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 03:08:42,578  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 03:08:42,593  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 03:08:42,593  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 03:08:42,593  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 03:08:42,593  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 03:08:42,593  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 03:08:42,593 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 03:08:42,593  INFO [main] (Repository.java:403) - Repository path:	C:\BerryDumais
+2015-06-18 03:08:42,859  INFO [main] (Repository.java:407) - Repository:		Lucene initialized
+2015-06-18 03:08:42,859 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 03:08:42,859 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 03:08:42,859 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 03:08:42,859 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 03:08:42,890 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@1ea2b4a English
+2015-06-18 03:08:42,937  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 03:08:43,156  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 03:08:43,156 DEBUG [main] (Corpus.java:377) - Corpus being loaded. Query:type:document
+2015-06-18 03:08:43,296 DEBUG [main] (Corpus.java:387) - 10 documents found
+2015-06-18 03:08:43,312 DEBUG [main] (Dictionary.java:70) - Creating dictionary for corpus type:document
+2015-06-18 03:08:43,359 DEBUG [main] (Dictionary.java:159) - Removal of terms finished, 0 terms removed, 24 terms kept.
+2015-06-18 03:08:43,359 DEBUG [main] (Corpus.java:469) - 10 documents processed, 24 terms kept
+2015-06-18 03:08:43,375 DEBUG [main] (Corpus.java:498) - Terms sorted
+2015-06-18 03:08:43,375 DEBUG [main] (Corpus.java:518) - Frequencies calculated
+2015-06-18 03:08:43,375 DEBUG [main] (TermWeighting.java:237) - Term weighting. Local: LOGTF Global: Entropy
+2015-06-18 03:08:43,375 DEBUG [main] (TermWeighting.java:243) - Updating weights
+2015-06-18 03:08:43,375 DEBUG [main] (Corpus.java:529) - Term weighting applied
+2015-06-18 03:08:43,375 DEBUG [main] (SemanticSpace.java:101) - Applying dimensionality reduction
+2015-06-18 03:08:43,375 DEBUG [main] (SemanticSpace.java:154) - Using Jama SVD
+2015-06-18 03:08:43,390  INFO [main] (SemanticSpace.java:244) - Semantic space calculated in 15 ms. Parameters:DF_0_LOGTF_Entropy_NUM_100_J
+2015-06-18 03:08:43,390  INFO [main] (Corpus.java:537) - Corpus type:document loaded in 234 ms. Parameters:DF_0_LOGTF_Entropy_NUM_100_J
+2015-06-18 03:08:43,390  INFO [main] (AbstractOperation.java:267) - Operation Passages similarity started
+2015-06-18 03:08:43,406  INFO [main] (AbstractOperation.java:105) - Operation Passages similarity finished, 55 results obtained in 16 ms.
+2015-06-18 03:09:09,000 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 03:09:09,609  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 03:09:09,609  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 03:09:09,609  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 03:09:09,609  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 03:09:09,609  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 03:09:09,609  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 03:09:09,625  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 03:09:09,625 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 03:09:09,625  INFO [main] (Repository.java:403) - Repository path:	C:\BerryDumais
+2015-06-18 03:09:09,890  INFO [main] (Repository.java:407) - Repository:		Lucene initialized
+2015-06-18 03:09:09,890 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 03:09:09,890 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 03:09:09,906 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 03:09:09,906 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 03:09:09,953 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@e490fa English
+2015-06-18 03:09:09,984  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 03:09:10,218  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 03:09:10,250 DEBUG [main] (Corpus.java:377) - Corpus being loaded. Query:type:document
+2015-06-18 03:09:10,421 DEBUG [main] (Corpus.java:387) - 10 documents found
+2015-06-18 03:09:10,421 DEBUG [main] (Dictionary.java:70) - Creating dictionary for corpus type:document
+2015-06-18 03:09:10,468 DEBUG [main] (Dictionary.java:159) - Removal of terms finished, 0 terms removed, 24 terms kept.
+2015-06-18 03:09:10,468 DEBUG [main] (Corpus.java:469) - 10 documents processed, 24 terms kept
+2015-06-18 03:09:10,468 DEBUG [main] (Corpus.java:498) - Terms sorted
+2015-06-18 03:09:10,468 DEBUG [main] (Corpus.java:518) - Frequencies calculated
+2015-06-18 03:09:10,484 DEBUG [main] (TermWeighting.java:237) - Term weighting. Local: LOGTF Global: Entropy
+2015-06-18 03:09:10,484 DEBUG [main] (TermWeighting.java:243) - Updating weights
+2015-06-18 03:09:10,484 DEBUG [main] (Corpus.java:529) - Term weighting applied
+2015-06-18 03:09:10,484 DEBUG [main] (SemanticSpace.java:101) - Applying dimensionality reduction
+2015-06-18 03:09:10,484 DEBUG [main] (SemanticSpace.java:154) - Using Jama SVD
+2015-06-18 03:09:10,500  INFO [main] (SemanticSpace.java:244) - Semantic space calculated in 16 ms. Parameters:DF_0_LOGTF_Entropy_NUM_100_J
+2015-06-18 03:09:10,500  INFO [main] (Corpus.java:537) - Corpus type:document loaded in 250 ms. Parameters:DF_0_LOGTF_Entropy_NUM_100_J
+2015-06-18 03:09:10,500  INFO [main] (AbstractOperation.java:267) - Operation Passages similarity started
+2015-06-18 03:09:10,500  INFO [main] (AbstractOperation.java:105) - Operation Passages similarity finished, 55 results obtained in 0 ms.
+2015-06-18 03:10:40,937 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 03:10:41,562  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 03:10:41,562  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 03:10:41,562  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 03:10:41,562  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 03:10:41,562  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 03:10:41,562  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 03:10:41,562  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 03:10:41,578 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 03:10:41,578  INFO [main] (Repository.java:403) - Repository path:	C:\BerryDumais
+2015-06-18 03:10:41,781  INFO [main] (Repository.java:407) - Repository:		Lucene initialized
+2015-06-18 03:10:41,781 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 03:10:41,781 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 03:10:41,781 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 03:10:41,796 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 03:10:41,828 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@1ea2b4a English
+2015-06-18 03:10:41,859  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 03:10:42,046  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 03:10:42,046 DEBUG [main] (Corpus.java:377) - Corpus being loaded. Query:type:document
+2015-06-18 03:10:42,218 DEBUG [main] (Corpus.java:387) - 10 documents found
+2015-06-18 03:10:42,218 DEBUG [main] (Dictionary.java:70) - Creating dictionary for corpus type:document
+2015-06-18 03:10:42,281 DEBUG [main] (Dictionary.java:159) - Removal of terms finished, 0 terms removed, 24 terms kept.
+2015-06-18 03:10:42,281 DEBUG [main] (Corpus.java:469) - 10 documents processed, 24 terms kept
+2015-06-18 03:10:42,296 DEBUG [main] (Corpus.java:498) - Terms sorted
+2015-06-18 03:10:42,296 DEBUG [main] (Corpus.java:518) - Frequencies calculated
+2015-06-18 03:10:42,296 DEBUG [main] (TermWeighting.java:237) - Term weighting. Local: LOGTF Global: Entropy
+2015-06-18 03:10:42,296 DEBUG [main] (TermWeighting.java:243) - Updating weights
+2015-06-18 03:10:42,296 DEBUG [main] (Corpus.java:529) - Term weighting applied
+2015-06-18 03:10:42,296 DEBUG [main] (SemanticSpace.java:101) - Applying dimensionality reduction
+2015-06-18 03:10:42,312 DEBUG [main] (SemanticSpace.java:154) - Using Jama SVD
+2015-06-18 03:10:42,312  INFO [main] (SemanticSpace.java:244) - Semantic space calculated in 16 ms. Parameters:DF_0_LOGTF_Entropy_NUM_100_J
+2015-06-18 03:10:42,312  INFO [main] (Corpus.java:537) - Corpus type:document loaded in 266 ms. Parameters:DF_0_LOGTF_Entropy_NUM_100_J
+2015-06-18 03:10:42,312  INFO [main] (AbstractOperation.java:267) - Operation Passages similarity started
+2015-06-18 03:10:42,312  INFO [main] (AbstractOperation.java:105) - Operation Passages similarity finished, 55 results obtained in 0 ms.
+2015-06-18 03:19:33,859 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 03:19:34,468  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 03:19:34,468  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 03:19:34,468  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 03:19:34,468  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 03:19:34,468  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 03:19:34,468  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 03:19:34,468  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 03:19:34,468 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 03:19:34,468  INFO [main] (Repository.java:403) - Repository path:	C:\BerryDumais
+2015-06-18 03:19:34,687  INFO [main] (Repository.java:407) - Repository:		Lucene initialized
+2015-06-18 03:19:34,687 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 03:19:34,687 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 03:19:34,687 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 03:19:34,687 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 03:19:34,718 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@1ea2b4a English
+2015-06-18 03:19:34,765  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 03:19:34,984  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 03:19:35,000 DEBUG [main] (Corpus.java:377) - Corpus being loaded. Query:type:document
+2015-06-18 03:19:35,171 DEBUG [main] (Corpus.java:387) - 10 documents found
+2015-06-18 03:19:35,171 DEBUG [main] (Dictionary.java:70) - Creating dictionary for corpus type:document
+2015-06-18 03:19:35,328 DEBUG [main] (Dictionary.java:159) - Removal of terms finished, 0 terms removed, 24 terms kept.
+2015-06-18 03:19:35,328 DEBUG [main] (Corpus.java:469) - 10 documents processed, 24 terms kept
+2015-06-18 03:19:35,328 DEBUG [main] (Corpus.java:498) - Terms sorted
+2015-06-18 03:19:35,328 DEBUG [main] (Corpus.java:518) - Frequencies calculated
+2015-06-18 03:19:35,328 DEBUG [main] (TermWeighting.java:237) - Term weighting. Local: LOGTF Global: Entropy
+2015-06-18 03:19:35,343 DEBUG [main] (TermWeighting.java:243) - Updating weights
+2015-06-18 03:19:35,343 DEBUG [main] (Corpus.java:529) - Term weighting applied
+2015-06-18 03:19:35,343 DEBUG [main] (SemanticSpace.java:101) - Applying dimensionality reduction
+2015-06-18 03:19:35,343 DEBUG [main] (SemanticSpace.java:154) - Using Jama SVD
+2015-06-18 03:19:35,359  INFO [main] (SemanticSpace.java:244) - Semantic space calculated in 16 ms. Parameters:DF_0_LOGTF_Entropy_NUM_100_J
+2015-06-18 03:19:35,359  INFO [main] (Corpus.java:537) - Corpus type:document loaded in 359 ms. Parameters:DF_0_LOGTF_Entropy_NUM_100_J
+2015-06-18 03:19:35,359  INFO [main] (AbstractOperation.java:267) - Operation Concept extraction started
+2015-06-18 03:19:35,390 DEBUG [main] (TermExtractionSummarization.java:55) - rows:24 columns:10
+2015-06-18 03:19:35,390 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term 1960 with key 0.011945320475753892
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term 90 with key 0.005410733774903596
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term band with key 0.0036691903973943667
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term bass with key 0.004313424572083234
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term bread with key 0.18585031249812758
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term composit with key 0.0055796084198286985
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term crescent with key 0.10896405090405639
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term demonstr with key 0.04405787307568792
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term dough with key 0.5972745019855333
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term drum with key 0.016818775463900173
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term ingredi with key 0.5241459911522885
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term make with key 0.043283762988340836
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term music with key 0.010993653540785613
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term organ with key 0.6409193316456672
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term perspect with key 0.005410733774903679
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term pizza with key 0.6409193316456672
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term popular with key 0.003669190397394626
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term quick with key 0.6409193316456672
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term recip with key 0.498341248772571
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term rock with key 0.012131361314838336
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term roll with key 0.07319785623882856
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term sor with key 0.2135872970799954
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term techniqu with key 0.019748803219618923
+2015-06-18 03:19:35,406 DEBUG [main] (TermExtractionSummarization.java:78) - Inserting term white with key 0.09856567201471135
+2015-06-18 03:19:35,437  INFO [main] (AbstractOperation.java:105) - Operation Concept extraction finished, 24 results obtained in 47 ms.
+2015-06-18 03:19:35,437  INFO [main] (ConceptExtraction.java:45) - Originally 24 results
+2015-06-18 03:19:35,437  INFO [main] (AbstractOperation.java:267) - Operation Compound nounds summarized started
+2015-06-18 03:19:35,562  INFO [main] (AbstractOperation.java:105) - Operation Compound nounds summarized finished, 0 results obtained in 125 ms.
+2015-06-18 03:20:09,500 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 03:20:10,171  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 03:20:10,171  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 03:20:10,171  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 03:20:10,171  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 03:20:10,171  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 03:20:10,171  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 03:20:10,187  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 03:20:10,187 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 03:20:10,187  INFO [main] (Repository.java:403) - Repository path:	C:\BerryDumais
+2015-06-18 03:20:10,453  INFO [main] (Repository.java:407) - Repository:		Lucene initialized
+2015-06-18 03:20:10,453 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 03:20:10,453 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 03:20:10,453 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 03:20:10,468 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 03:20:10,500 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@1ea2b4a English
+2015-06-18 03:20:10,531  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 03:20:10,781  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 03:20:10,781 DEBUG [main] (Corpus.java:377) - Corpus being loaded. Query:type:document
+2015-06-18 03:20:11,000 DEBUG [main] (Corpus.java:387) - 10 documents found
+2015-06-18 03:20:11,000 DEBUG [main] (Dictionary.java:70) - Creating dictionary for corpus type:document
+2015-06-18 03:20:11,062 DEBUG [main] (Dictionary.java:159) - Removal of terms finished, 0 terms removed, 24 terms kept.
+2015-06-18 03:20:11,062 DEBUG [main] (Corpus.java:469) - 10 documents processed, 24 terms kept
+2015-06-18 03:20:11,062 DEBUG [main] (Corpus.java:498) - Terms sorted
+2015-06-18 03:20:11,062 DEBUG [main] (Corpus.java:518) - Frequencies calculated
+2015-06-18 03:20:11,078 DEBUG [main] (TermWeighting.java:237) - Term weighting. Local: LOGTF Global: Entropy
+2015-06-18 03:20:11,078 DEBUG [main] (TermWeighting.java:243) - Updating weights
+2015-06-18 03:20:11,078 DEBUG [main] (Corpus.java:529) - Term weighting applied
+2015-06-18 03:20:11,078 DEBUG [main] (SemanticSpace.java:101) - Applying dimensionality reduction
+2015-06-18 03:20:11,078 DEBUG [main] (SemanticSpace.java:154) - Using Jama SVD
+2015-06-18 03:20:11,093  INFO [main] (SemanticSpace.java:244) - Semantic space calculated in 15 ms. Parameters:DF_0_LOGTF_Entropy_NUM_100_J
+2015-06-18 03:20:11,093  INFO [main] (Corpus.java:537) - Corpus type:document loaded in 312 ms. Parameters:DF_0_LOGTF_Entropy_NUM_100_J
+2015-06-18 03:20:11,093  INFO [main] (AbstractOperation.java:267) - Operation Passages similarity started
+2015-06-18 03:20:11,093  INFO [main] (AbstractOperation.java:105) - Operation Passages similarity finished, 55 results obtained in 0 ms.
+2015-06-18 16:08:26,187 DEBUG [main] (Configuration.java:214) - Reading properties from filesystem: C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA\tml.properties
+2015-06-18 16:08:27,000  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 16:08:27,000  INFO [main] (Configuration.java:244) - ----------------------------------------------------
+2015-06-18 16:08:27,000  INFO [main] (Configuration.java:245) - TML - Text Mining Library
+2015-06-18 16:08:27,000  INFO [main] (Configuration.java:246) - Version: 3.2 initializing
+2015-06-18 16:08:27,000  INFO [main] (Configuration.java:247) - ----------------------------------------------------
+2015-06-18 16:08:27,000  INFO [main] (Configuration.java:143) - TML folder:		.
+2015-06-18 16:08:27,031  INFO [main] (Repository.java:401) - TML initialization
+2015-06-18 16:08:27,031 DEBUG [main] (Repository.java:402) - Context Path:		C:\Documents and Settings\Anibal\workspace\AlgoritmoLSA
+2015-06-18 16:08:27,031  INFO [main] (Repository.java:403) - Repository path:	C:\stopwords
+2015-06-18 16:08:27,125  WARN [main] (Repository.java:409) - Repository:		Lucene index corrupt or inexistent, recreating
+2015-06-18 16:08:27,156  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 16:08:27,156  INFO [main] (DbConnection.java:57) - Cleaning meta data storage, all documents will be lost!
+2015-06-18 16:08:27,734 DEBUG [main] (Repository.java:417) - Cache:			SVDs stored in ./svd
+2015-06-18 16:08:27,750 DEBUG [main] (Repository.java:423) - Temp:			Temporary files in ./tmp
+2015-06-18 16:08:27,750 DEBUG [main] (Repository.java:429) - Indexer:		Processed files in ./processed
+2015-06-18 16:08:27,765 DEBUG [main] (Repository.java:448) - Stopwords:		Using English (571 stopwords)
+2015-06-18 16:08:27,796 DEBUG [main] (Repository.java:457) - Stemming:		Using org.apache.lucene.analysis.snowball.SnowballAnalyzer@2a5e75 English
+2015-06-18 16:08:27,828  INFO [main] (DbConnection.java:104) - Metadata:		Storing metadata info in DB com.mysql.jdbc.Driver at jdbc:mysql://localhost/tml_metadata
+2015-06-18 16:08:27,828  INFO [main] (Repository.java:513) - TML initialized
+2015-06-18 16:08:27,843 DEBUG [main] (Corpus.java:377) - Corpus being loaded. Query:type:document
+2015-06-18 16:08:27,984 DEBUG [main] (Corpus.java:387) - 0 documents found
+2015-06-18 16:08:27,984 ERROR [main] (Corpus.java:390) - No documents found in Corpus
