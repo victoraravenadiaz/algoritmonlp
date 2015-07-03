@@ -11,6 +11,7 @@ public class AddingFilesToRepository {
        repository.addDocumentsInFolder("C:\\handbookOfLSA/");
         
         System.out.println("Documents added to repository successfully!");
+
 		
 	}
 
