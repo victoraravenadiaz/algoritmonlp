@@ -7,13 +7,22 @@ import psycopg2
 import itertools
 import gc
 import nltk, re, pprint
+import os, sys 
+import re
+from unicodedata import normalize
+
+
 #from nltk import word_tokenize
 from nltk import word_tokenize
 from nltk.stem import SnowballStemmer
 from textclean.textclean import textclean
 
+sys.getdefaultencoding()
+
 stemmer = SnowballStemmer('spanish')
  
+def remover_tilde(desc, codif='utf-8'):    
+        return normalize('NFKD', desc.decode(codif)).encode('ASCII','ignore')
 
 
 try:
@@ -29,8 +38,10 @@ titles = [i[0] for i in t]
 print "lee las licitaciones"
 
 
-#for i in range(len(titles)):
+for i in range(len(titles)):
     #titles[i] = titles[i].lower().decode('ascii')
+    titles[i] = remover_tilde(titles[i].lower())
+
     #titles[i] = titles[i].decode('utf-8').encode('utf-8').lower()
     #text = textclean.clean(titles[i].lower())
     #tokens = nltk.wordpunct_tokenize(titles[i].lower())
@@ -64,7 +75,7 @@ class LSA(object):
             w = w.lower().translate(None, self.ignorechars)
             #tokens = nltk.wordpunct_tokenize(w)
             #w = nltk.text(tokens)
-            #w = stemmer.stem(w)
+            w = stemmer.stem(w)
             if w in self.stopwords:
                 continue
             elif w in self.wdict:
