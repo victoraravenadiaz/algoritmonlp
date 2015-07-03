@@ -6,6 +6,15 @@ from numpy import asarray, sum
 import psycopg2
 import itertools
 import gc
+import nltk, re, pprint
+#from nltk import word_tokenize
+from nltk import word_tokenize
+from nltk.stem import SnowballStemmer
+from textclean.textclean import textclean
+
+stemmer = SnowballStemmer('spanish')
+ 
+
 
 try:
     conn = psycopg2.connect("dbname='vm31ene2014' user='postgres' host='localhost' password='123456'")
@@ -13,19 +22,33 @@ except:
     print "I am unable to connect to the database"
 
 cur = conn.cursor()
-
-cur.execute("""SELECT nombre from licitacion order by id limit 5000""")
-
+cur.execute("""SELECT nombre from licitacion order by id limit 1000""")
 t = cur.fetchall()
 
 titles = [i[0] for i in t]
 print "lee las licitaciones"
-#for x in titles:
-#    print x
+
+
+#for i in range(len(titles)):
+    #titles[i] = titles[i].lower().decode('ascii')
+    #titles[i] = titles[i].decode('utf-8').encode('utf-8').lower()
+    #text = textclean.clean(titles[i].lower())
+    #tokens = nltk.wordpunct_tokenize(titles[i].lower())
+    #palabras = nltk.Text(tokens)
+    #print tokens
+    #text = 'En su parte de arriba encontramos la ";zona de mandos";, donde se puede echar el detergente, aunque en nuestro caso lo al ser gel lo ponemos directamente junto con la ropa.'
+    #stemmed_text = [stemmer.stem(i) for i in word_tokenize(text)]
+   #opinion = [[spanish_stemmer.stem(word) for word in sentence.split(" ")]for sentence in opinion]
+    #print stemmed_text
+    #titles[i] = stemmed_text
+
+    #titles[i] = titles[i].lower()
+    #token = nltk.word_tokenize(titles[i])
+    #print token
 
 text_file = open("C:\Documents and Settings\Anibal\Escritorio\LSA\stopwords.txt", "r")
 stopwords = text_file.read().split('\n')
-ignorechars = ''',:'!/() '''
+ignorechars = ''',:'!/() []'''
 
 class LSA(object):
     def __init__(self, stopwords, ignorechars):
@@ -33,11 +56,15 @@ class LSA(object):
         self.titles = titles
         self.ignorechars = ignorechars
         self.wdict = {}
-        self.dcount = 0        
+        self.dcount = 0
+                
     def parse(self, doc):
         words = doc.split();
         for w in words:
             w = w.lower().translate(None, self.ignorechars)
+            #tokens = nltk.wordpunct_tokenize(w)
+            #w = nltk.text(tokens)
+            #w = stemmer.stem(w)
             if w in self.stopwords:
                 continue
             elif w in self.wdict:
