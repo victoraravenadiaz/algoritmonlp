@@ -1,4 +1,6 @@
+import java.text.Normalizer;
 import java.util.Arrays;
+import java.util.regex.Pattern;
 
 
 public class Texto {
@@ -25,30 +27,40 @@ public class Texto {
 		this.texto = texto;
 	}
 	
+	public String removerAcentos(String texto) {
+		
+		String sinAcentos = "";
+		// Descomposición canónica
+	    String normalized = Normalizer.normalize(texto, Normalizer.Form.NFD);
+	    // Nos quedamos únicamente con los caracteres ASCII
+	    Pattern pattern = Pattern.compile("\\P{ASCII}+");
+	    sinAcentos = pattern.matcher(normalized).replaceAll("");
+	    
+	    return sinAcentos;
+	    
+	}
+	
+	public String removerCaracteres(String texto) {
+		String sinChars = texto;
+		// Cadena de caracteres original a sustituir.
+	    String caracteres = ",.:-'¡!¿?/()[]";
+	    // Cadena de caracteres ASCII que reemplazarán los originales.
+	    for (int i=0; i<caracteres.length(); i++) {
+	        // Reemplazamos los caracteres especiales.
+	        sinChars = sinChars.replaceAll("\\"+caracteres.charAt(i), "");
+	    }
+	    return sinChars;
+	}
+	
+	
 	//método para obtener la ocurrencia del texto
-	public String ocurrencia(){
+	public int[] ocurrenciaNumeros(){
 		
 		String cadena = this.getTexto(); //iniciar con cadena de texto introducida
 		cadena = cadena.toLowerCase(); //convierte mayúsculas a minúsculas, sobre todo si hay dos palabras iguales, pero una de ellas con mayúsculas
+        cadena = this.removerCaracteres(cadena); //remueve caracteres si es que los hubiera
+        cadena = this.removerAcentos(cadena); //remueve acentos si es que los hubiera
 		
-		
-		//recorremos en busca de puntos, comas y signos
-		for (int i = 0; i < cadena.length(); i++) {
-            if ((cadena.charAt(i) == ',') 
-            		|| (cadena.charAt(i) == '.')
-            		|| (cadena.charAt(i) == '?')
-            		|| (cadena.charAt(i) == '¿')
-            		|| (cadena.charAt(i) == '!')
-            		|| (cadena.charAt(i) == '¡')) { // Si hay un punto o una coma
-                cadena = cadena.replace(".", ""); //elimina los puntos encontrados
-                cadena = cadena.replace(",", ""); //elimina comas encontradas
-                cadena = cadena.replace("!", ""); //elimina signos ! encontrados
-                cadena = cadena.replace("¡", ""); //elimina signos ¡ encontrados
-                cadena = cadena.replace("¿", ""); //elimina signos ¿ encontrados
-                cadena = cadena.replace("?", ""); //elimina signos ? encontrados
-            }
-        }
-        
         String[] palabras = cadena.split(" "); //convierte el String en un arreglo de Strings separándolo por espacios
         Arrays.sort(palabras); //ordena el arreglo de Strings por orden alfabético
         
@@ -56,12 +68,8 @@ public class Texto {
          * Para anular palabras repetidas
          */
         
-        String[] anuladas = new String[palabras.length]; //se llama a un nuevo arreglo de Strings para anular las palabras repetidas
+        String[] anuladas = palabras; //se llama a un nuevo arreglo de Strings para anular las palabras repetidas
 		int[] contadores = new int[palabras.length]; //se almacena en un arreglo de enteros las veces que se repite cada palabra
-		
-		for(int i = 0; i < anuladas.length; i++){
-			anuladas[i] = palabras[i]; //para evitar cualquier inconveniente, se asigna cada elemento del arreglo palabras al arreglo anuladas
-		}
 
 		int contador = 1;
 		
@@ -80,36 +88,6 @@ public class Texto {
 			}
 			
 			contador = 1; //para el siguiente ciclo, el contador vuelve a 1
-		}
-		
-		/*
-		 * Para eliminar palabras anuladas repetidas
-		 */
-		
-		String[] nuevoPalabras = new String[]{}; //se declara un arreglo de Strings nuevo, vacío
-		
-		for (int i = 0; i < palabras.length; i++) {
-			String palabra = palabras[i]; //se declara un String con el elemento actual del arreglo de Strings palabra 
-			boolean palabraYaExiste = false; //un boolean para determinar si la palabra ya existe
-			
-			for (int j = 0; j < nuevoPalabras.length; j++) {
-				if (nuevoPalabras[j].equals(palabra)) { //si el elemento actual coincide con el String analizado
-					palabraYaExiste = true; //palabraYaExiste se declara verdadero
-					break;
-				}
-			}
-			
-			if (palabraYaExiste == false) { //si la palabra no existe
-				
-				String[] vectorTemp = new String[nuevoPalabras.length + 1]; //se declara un vector temporal
-				
-				for (int j = 0; j < nuevoPalabras.length; j++) {
-					vectorTemp[j] = nuevoPalabras[j]; //a cada elemento del vector temporal se le asigna el arreglo actual
-				}
-				
-				vectorTemp[nuevoPalabras.length] = palabra; //al último elemento del vector temporal se le asigna el String analizado 
-				nuevoPalabras = vectorTemp; //el vector a poblar se iguala con el Vector Temporal
-			}
 		}
 		
 		/*
@@ -143,13 +121,87 @@ public class Texto {
 			}
 		}
 		
-		String ocurrencia = "Texto ingresado: " + this.getTexto() + "\n";
-		ocurrencia += "Ocurrencia de palabras: \n";
-		for(int i = 0; i < nuevoPalabras.length; i++){
-			ocurrencia += nuevoPalabras[i] + ": " + nuevoContadores[i] + "\n";
-		}
-		
-		return ocurrencia;
+		return nuevoContadores;
 		
 	}
+	
+	//método que devuelve la lista de palabras
+		public String[] palabras(){
+			
+			String cadena = this.getTexto(); //iniciar con cadena de texto introducida
+			cadena = cadena.toLowerCase(); //convierte mayúsculas a minúsculas, sobre todo si hay dos o más palabras iguales, pero una o algunas de ellas con mayúsculas
+			cadena = this.removerCaracteres(cadena); //remueve caracteres si es que los hubiera
+	        cadena = this.removerAcentos(cadena); //remueve acentos si es que los hubiera
+	        
+	        String[] palabras = cadena.split(" "); //convierte el String en un arreglo de Strings separándolo por espacios
+	        Arrays.sort(palabras); //ordena el arreglo de Strings por orden alfabético
+	        
+	        /*
+	         * Para anular palabras repetidas
+	         */
+	        
+	        String[] anuladas = new String[palabras.length]; //se llama a un nuevo arreglo de Strings para anular las palabras repetidas
+			
+			for(int i = 0; i < anuladas.length; i++){
+				anuladas[i] = palabras[i]; //para evitar cualquier inconveniente, se asigna cada elemento del arreglo palabras al arreglo anuladas
+			}
+			
+			for(int i = 0; i < anuladas.length; i++){
+				for(int j = i+1; j < palabras.length; j++){
+					if(anuladas[j].equals(anuladas[i])){ //si hay una palabra repetida
+						anuladas[j] = ""; //se anula la palabra repetida
+					}
+				}	
+			}
+			
+			/*
+			 * Para eliminar palabras anuladas repetidas
+			 */
+			
+			String[] nuevoPalabras = new String[]{}; //se declara un arreglo de Strings nuevo, vacío
+			
+			for (int i = 0; i < palabras.length; i++) {
+				String palabra = palabras[i]; //se declara un String con el elemento actual del arreglo de Strings palabra 
+				boolean palabraYaExiste = false; //un boolean para determinar si la palabra ya existe
+				
+				for (int j = 0; j < nuevoPalabras.length; j++) {
+					if (nuevoPalabras[j].equals(palabra)) { //si el elemento actual coincide con el String analizado
+						palabraYaExiste = true; //palabraYaExiste se declara verdadero
+						break;
+					}
+				}
+				
+				if (palabraYaExiste == false) { //si la palabra no existe
+					
+					String[] vectorTemp = new String[nuevoPalabras.length + 1]; //se declara un vector temporal
+					
+					for (int j = 0; j < nuevoPalabras.length; j++) {
+						vectorTemp[j] = nuevoPalabras[j]; //a cada elemento del vector temporal se le asigna el arreglo actual
+					}
+					
+					vectorTemp[nuevoPalabras.length] = palabra; //al último elemento del vector temporal se le asigna el String analizado 
+					nuevoPalabras = vectorTemp; //el vector a poblar se iguala con el Vector Temporal
+				}
+			}
+			
+			return nuevoPalabras;
+			
+		}
+		
+		public String ocurrenciaToString(){
+			
+			int[] contadores = this.ocurrenciaNumeros();
+			String[] palabras = this.palabras();
+			
+			String ocurrencia = this.getTexto() + "\n";
+			ocurrencia += "Ocurrencia de palabras \n";
+			
+			for(int i = 0; i < palabras.length; i++){
+				
+				ocurrencia += palabras[i] + ": " + contadores[i] + "\n";
+			}
+			
+			return ocurrencia;
+			
+		}
 }
