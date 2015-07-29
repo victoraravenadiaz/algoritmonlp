@@ -4,8 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Texto t = new Texto("Finanzas artículos de oficina de finanzas");
-		System.out.println(t.ocurrenciaToString());
+		Texto t = new Texto("Hola hola hola chao");
+		System.out.println(t.ocurrencia());
 	}
 
 }

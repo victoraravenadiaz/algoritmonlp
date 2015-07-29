@@ -1,31 +1,35 @@
 import java.text.Normalizer;
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Pattern;
 
 
 public class Texto {
 
-	//declarar campos
 	private String texto;
 
-	//constructor vacío
 	public Texto() {
 	}
 
-	//constructor que recibe un String como parámetro
 	public Texto(String texto) {
 		this.texto = texto;
 	}
 
-	//llama al String a través del metodo Get
 	public String getTexto() {
 		return texto;
 	}
 
-	//modifica el texto a través del método set
 	public void setTexto(String texto) {
 		this.texto = texto;
 	}
+	
+	/**
+	 * Método para remover los tildes (acentos gráficos)
+	 * de un texto pasado por parámetro
+	 * @param texto
+	 * @return cadena de texto sin acentos
+	 */
 	
 	public String removerAcentos(String texto) {
 		
@@ -40,6 +44,13 @@ public class Texto {
 	    
 	}
 	
+	/**
+	 * Método para remover los caracteres y símbolos
+	 * especiales de un texto (si es que los hubiera)
+	 * pasados por parámetro
+	 * @param texto
+	 * @return cadena de texto sin caracteres
+	 */
 	public String removerCaracteres(String texto) {
 		String sinChars = texto;
 		// Cadena de caracteres original a sustituir.
@@ -52,81 +63,13 @@ public class Texto {
 	    return sinChars;
 	}
 	
-	
-	//método para obtener la ocurrencia del texto
-	public int[] ocurrenciaNumeros(){
-		
-		String cadena = this.getTexto(); //iniciar con cadena de texto introducida
-		cadena = cadena.toLowerCase(); //convierte mayúsculas a minúsculas, sobre todo si hay dos palabras iguales, pero una de ellas con mayúsculas
-        cadena = this.removerCaracteres(cadena); //remueve caracteres si es que los hubiera
-        cadena = this.removerAcentos(cadena); //remueve acentos si es que los hubiera
-		
-        String[] palabras = cadena.split(" "); //convierte el String en un arreglo de Strings separándolo por espacios
-        Arrays.sort(palabras); //ordena el arreglo de Strings por orden alfabético
-        
-        /*
-         * Para anular palabras repetidas
-         */
-        
-        String[] anuladas = palabras; //se llama a un nuevo arreglo de Strings para anular las palabras repetidas
-		int[] contadores = new int[palabras.length]; //se almacena en un arreglo de enteros las veces que se repite cada palabra
-
-		int contador = 1;
-		
-		for(int i = 0; i < anuladas.length; i++){
-			for(int j = i+1; j < palabras.length; j++){
-				if(anuladas[j].equals(anuladas[i])){ //si hay una palabra repetida
-					contador++; //se aumenta a 1 el contador
-					anuladas[j] = ""; //se anula la palabra repetida
-				}
-			}
-			
-			if(anuladas[i].equals("")){ //si la palabra está anulada por haber sido repetida
-				contadores[i] = 0; //se anula a 0 el contador actual, ya que la palabra, si está repetida, ya ha sido contada
-			}else{
-				contadores[i] = contador; //se agrega el valor actual del contador 
-			}
-			
-			contador = 1; //para el siguiente ciclo, el contador vuelve a 1
-		}
-		
-		/*
-		 * Para eliminar los 0 del arreglo de contadores,
-		 * cada 0 se refiere a las palabras repetidas ya contadas
-		 */
-		
-		int[] nuevoContadores = new int[]{}; //se declara un arreglo vacío de números enteros
-
-		for (int i = 0; i < contadores.length; i++) {
-			int cont = contadores[i]; //se declara un entero con el elemento actual del arreglo de enteros que se analiza 
-			boolean contadorEsCero = false; //se declara un booleano para ver si el contador actual es cero
-			
-			for (int j = 0; j < nuevoContadores.length; j++) {
-				if (cont == 0) { //si el contador actual es cero
-					contadorEsCero = true; //el booleano se declara verdadero
-					break;
-				}
-			}
-			
-			if (contadorEsCero == false) { //si el booleano es falso
-				
-				int[] vectorTemp = new int[nuevoContadores.length + 1]; //se asigna un vector temporal de enteros
-				
-				for (int j = 0; j < nuevoContadores.length; j++) {
-					vectorTemp[j] = nuevoContadores[j]; //a cada elemento del vector temporal se le asigna el actual del vector que se va rellenando
-				}
-				
-				vectorTemp[nuevoContadores.length] = cont; //el contador actual es asignado al último elemento del arreglo temporal
-				nuevoContadores = vectorTemp; //el arreglo temporal es asignado al arreglo vacío es asignado
-			}
-		}
-		
-		return nuevoContadores;
-		
-	}
-	
-	//método que devuelve la lista de palabras
-		public String[] palabras(){
+	/**
+	 * Método para devolver una lista
+	 * de palabras del texto ingresado
+	 * por parámetro en el constructor
+	 * @return arreglo de String
+	 */
+	public String[] palabras(){
 			
 			String cadena = this.getTexto(); //iniciar con cadena de texto introducida
 			cadena = cadena.toLowerCase(); //convierte mayúsculas a minúsculas, sobre todo si hay dos o más palabras iguales, pero una o algunas de ellas con mayúsculas
@@ -134,74 +77,94 @@ public class Texto {
 	        cadena = this.removerAcentos(cadena); //remueve acentos si es que los hubiera
 	        
 	        String[] palabras = cadena.split(" "); //convierte el String en un arreglo de Strings separándolo por espacios
-	        Arrays.sort(palabras); //ordena el arreglo de Strings por orden alfabético
 	        
-	        /*
-	         * Para anular palabras repetidas
-	         */
-	        
-	        String[] anuladas = new String[palabras.length]; //se llama a un nuevo arreglo de Strings para anular las palabras repetidas
+	        Set<String> todos = new HashSet<String>(); //Se inicia un hashset que hará que no se repita ninguna palabra
 			
-			for(int i = 0; i < anuladas.length; i++){
-				anuladas[i] = palabras[i]; //para evitar cualquier inconveniente, se asigna cada elemento del arreglo palabras al arreglo anuladas
+			for (String s : palabras) {
+			      todos.add(s); //se llena el hashset con cada palabra del arreglo de String
 			}
 			
-			for(int i = 0; i < anuladas.length; i++){
-				for(int j = i+1; j < palabras.length; j++){
-					if(anuladas[j].equals(anuladas[i])){ //si hay una palabra repetida
-						anuladas[j] = ""; //se anula la palabra repetida
-					}
-				}	
-			}
+			String[] nuevoPalabras = todos.toArray(new String[0]); //se pasa el hashset a un nuevo arreglo de palabras
+			Arrays.sort(nuevoPalabras); //Se ordenan las palabras por orden alfabético
 			
-			/*
-			 * Para eliminar palabras anuladas repetidas
-			 */
+			return nuevoPalabras; //Se retorna el nuevo arreglo de String
 			
-			String[] nuevoPalabras = new String[]{}; //se declara un arreglo de Strings nuevo, vacío
-			
-			for (int i = 0; i < palabras.length; i++) {
-				String palabra = palabras[i]; //se declara un String con el elemento actual del arreglo de Strings palabra 
-				boolean palabraYaExiste = false; //un boolean para determinar si la palabra ya existe
-				
-				for (int j = 0; j < nuevoPalabras.length; j++) {
-					if (nuevoPalabras[j].equals(palabra)) { //si el elemento actual coincide con el String analizado
-						palabraYaExiste = true; //palabraYaExiste se declara verdadero
-						break;
-					}
-				}
-				
-				if (palabraYaExiste == false) { //si la palabra no existe
-					
-					String[] vectorTemp = new String[nuevoPalabras.length + 1]; //se declara un vector temporal
-					
-					for (int j = 0; j < nuevoPalabras.length; j++) {
-						vectorTemp[j] = nuevoPalabras[j]; //a cada elemento del vector temporal se le asigna el arreglo actual
-					}
-					
-					vectorTemp[nuevoPalabras.length] = palabra; //al último elemento del vector temporal se le asigna el String analizado 
-					nuevoPalabras = vectorTemp; //el vector a poblar se iguala con el Vector Temporal
-				}
-			}
-			
-			return nuevoPalabras;
-			
+		}
+	
+	/**
+	 * Método que devuelve una lista de frecuencias
+	 * de cada palabra del texto ingresado por parámetro
+	 * en el constructor
+	 * @param cdns
+	 * @return arreglo de enteros
+	 */
+	public int[] frecuencias(String[] cdns){
+		
+		String cadena = this.getTexto(); //iniciar con cadena de texto introducida
+		cadena = cadena.toLowerCase(); //convierte mayúsculas a minúsculas, sobre todo si hay dos o más palabras iguales, pero una o algunas de ellas con mayúsculas
+		cadena = this.removerCaracteres(cadena); //remueve caracteres si es que los hubiera
+        cadena = this.removerAcentos(cadena); //remueve acentos si es que los hubiera
+        
+        String[] palabras = cadena.split(" "); //convierte el String en un arreglo de Strings separándolo por espacios
+		Arrays.sort(palabras); //el arreglo de String se ordena alfabéticamente
+        
+        int[] contadores = new int[cdns.length]; //se declara un arreglo de enteros
+        int cont; //se declara un nuevo entero contador
+        
+        //se recorre el arreglo de String pasado por parámetro
+        for(int i = 0; i < cdns.length; i++) {
+        	cont = 0; //en cada inicio del ciclo, el contador se inicia a 0
+        	
+        	//se recorre la cadena de texto descompuesta en un arreglo
+        	for(int j = 0; j < palabras.length; j++) {
+        		/**
+        		 * Si el elemento actual de la cadena ingresada
+        		 * por parámetro es igual al de la cadena
+        		 * descompuesta
+        		 */
+            	if(cdns[i].equals(palabras[j])) {
+            		cont++; //el contador se aumenta a 1
+            	}	
+        	}
+        	contadores[i] = cont; //en cada fin del ciclo,
+        						//al elemento actual del arreglo de contadores
+        						//se le asigna el valor final del contador
+        }
+		
+		return contadores; //se retorna el arreglo de contadores
+		
+	}
+		
+	/**
+	 * Método que devuelve en una cadena de texto 
+	 * la descomposición del texto ingresado por parámetro en el constructor
+	 * y la frecuencia de cada palabra.
+	 * @return cadena de texto con palabras y sus frecuencias
+	 */
+	public String ocurrencia(){
+		
+		String[] palabras = this.palabras(); //se inicia un arreglo de String 
+											//de acuerdo al método palabras() llamado
+		
+		int[] contadores = this.frecuencias(palabras); //se inicia un arreglo de int 
+														//de acuerdo al método frecuencias 
+														//llamado con el arreglo de String
+														//pasado por parámetro
+		/**
+		 * Se inicia una cadena de texto
+		 * con el texto ingresado por el constructor
+		 * y separado por líneas
+		 */
+		String ocurrencia = this.getTexto() + "\n";
+		ocurrencia += "Ocurrencia de palabras \n";
+		
+		//Se recorre ambos arreglos
+		for(int i = 0; i < palabras.length; i++){
+			//se concatena con los valores actuales de amobs arreglos 
+			ocurrencia += palabras[i] + ": " + contadores[i] + "\n";
 		}
 		
-		public String ocurrenciaToString(){
-			
-			int[] contadores = this.ocurrenciaNumeros();
-			String[] palabras = this.palabras();
-			
-			String ocurrencia = this.getTexto() + "\n";
-			ocurrencia += "Ocurrencia de palabras \n";
-			
-			for(int i = 0; i < palabras.length; i++){
-				
-				ocurrencia += palabras[i] + ": " + contadores[i] + "\n";
-			}
-			
-			return ocurrencia;
-			
-		}
+		return ocurrencia; //se retorna la cadena ocurrencia
+		
+	}
 }
